@@ -1,0 +1,38 @@
+.container-fluid {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.container-fluid > div {
+    background-color: #DEDEDE;
+    padding: 50px 70px;
+    margin-bottom: 40px;
+}
+
+header > h1 {
+    font-size: 4em;
+}
+
+header {
+    text-align: center;
+}
+
+.card-img {
+    margin: 20px 0 50px 0;
+}
+
+.card-img p {
+    text-align: center;
+}
+
+.card-img img {
+    margin-bottom: 20px;
+}
+
+#content div {
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+}
