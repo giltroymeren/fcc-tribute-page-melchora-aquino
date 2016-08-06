@@ -3,135 +3,151 @@
     FreeCodeCamp: Build A Tribute Page
     https://www.freecodecamp.com/challenges/build-a-tribute-page
 -->
-<html>
+<html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tandang Sora</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-        <div class="fluid-container">
-            <header>
-                <h1>Melchora Aquino de Ramos</h1>
-                <p>The Grand Woman of the Philippine Revolution</p>
-            </header>
+        <div class="container-fluid">
 
-            <section>
-                <div class="card-img">
-                    <img
-                        src="http://himlayangpilipino.com.ph/wp-content/uploads/2012/07/Tandang-Sora.jpg"
-                        alt="Tandang Sora Memorial Shrine">
-                    <p>
-                        The fa&ccedil;ade of the <em>Tandang Sora Memorial Shrine</em> as seen in
-                        the <em>Himlayang Pilipino National Park</em>[<a href="#ref-himlayan">4</a>].
-                    </p>
-                </div>
+            <div>
+                <header>
+                    <h1>Melchora Aquino de Ramos</h1>
+                    <h2><em>The Grand Woman of the Philippine Revolution</h2></em></h2>
+                </header>
 
-                <div id="content">
-                    <div id="timeline">
-                        <h2>
-                            Here's a simple timeline of Melchora Aquino's life (and posthumous
-                            recognitions):
-                        </h2>
-                        <ul>
-                            <li>
-                                <span>1812</span> - Born in Balintawak, Quezon City[<a href="#ref-wikipedia">5</a>].
-                            </li>
-                            <li>
-                                <span>1896</span> - Philippine Revolution against Spaniards began.
-                                Offered her store to aid revolutionaries through medical aid,
-                                moral support and shelter. This led to her being known as
-                                "Tandang Sora" and
-                                "Mother of the Philippine Revolution" and other similar titles[<a href="#ref-wikipedia">5</a>].
-                            </li>
-                            <li>
-                                <span>1903</span> - Returned to Balintawak by Americans from being
-                                exiled by the Spaniard during the Revolution[<a href="ref-bi-article">2</a>].
-                            </li>
-                            <li>
-                                <span>1919</span> - Died in the Balintawak at the age of 107[<a href="ref-bi-article">2</a>][<a href="#ref-wikipedia">5</a>].
-                            </li>
-                            <li>
-                                <span>1947</span> - Given tribute through the film "Tandang Sora"
-                                by director Lamberto Avelana and portrayed by actress
-                                Rosa del Rosario[<a href="#ref-filipiknow">1</a>].
-                            </li>
-                            <li>
-                                <span>1951</span> - Featured as the first Filipina on a Philippine
-                                peso banknote[<a href="#ref-wikipedia">5</a>][<a href="#ref-filipiknow">1</a>].
-                            </li>
-                            <li>
-                                <span>2011<span> - Quezon City declared 2012 "Tandang Sora Year"[<a href="ref-bi-article">2</a>][<a href="#ref-wikipedia">5</a>].
-                            </li>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <blockquote>
-                        <p>Sa paglalagak natin ng mga labi ni Tandang Sora sa kaniyang bagong
-                            dambana, nawa’y magsilbing paalala sa bawat dumadalaw dito ang kakaibang
-                            uri ng kabayanihan ni Melchora Aquino: na kung gusto mo talagang
-                            pagsilbihan ang bayan, hindi hadlang ang edad, o ang kasarian, o
-                            anupamang balakid sa iyong harapan.
-                            Kaya naman tulungan natin ang ating kapwa, at nagkakaisa tayong kumilos
-                            para sa kapakanan ng ating bansa. Sa ganitong paraan, ipinapakita nating
-                            buhay pa rin ang pamana ni Melchora Aquino; at buhay pa rin ang kabayanihan
-                            at pagbabayanihan sa puso ng bawat Pilipino.
+                <section class="row">
+                    <div class="card-img thumbnail">
+                        <img
+                            src="http://himlayangpilipino.com.ph/wp-content/uploads/2012/07/Tandang-Sora.jpg"
+                            alt="Tandang Sora Memorial Shrine"
+                            class="img-responsive">
+                        <p>
+                            The fa&ccedil;ade of the <em>Tandang Sora Memorial Shrine</em> as seen in
+                            the <em>Himlayang Pilipino National Park</em>[<a href="#ref-himlayan">4</a>].
                         </p>
-                        <footer>
-                            <cite>
-                                Former Philippine President Benigno S. Aquino III, 2012[<a href="#ref-bi-speech">3</a>].
-                            </cite>
-                        </footer>
-                    </blockquote>
-
-                    <h2>
-                        Please read more about her incredible contribution to the Philippine
-                        Independence on her <a href="http://www.gov.ph/the-tandang-sora-bicentennial/">
-                        official Philippine bicentennial commemoration article</a>.
-                    </h2>
-
-                    <div id="sources">
-                        <h3>References:</h3>
-                        <ol>
-                            <li id="ref-filipiknow">
-                                "5 Surprising Facts About Melchora Aquino ('Tandang Sora')".
-                                <em>FilipiKnow</em>. FilipiKnow. Web. 6 August 2016.
-                                <a href="http://www.filipiknow.net/surprising-facts-about-melchora-aquino/">
-                                    <tt>http://www.filipiknow.net/surprising-facts-about-melchora-aquino/</tt>
-                                </a>.
-                            </li>
-                            <li id="ref-bi-article">
-                                "The Tandang Sora bicentennial". <em>Official Gazette</em>.
-                                Republic of the Philippines. 2012. Web. 6 August 2016.
-                                <a href="http://www.gov.ph/the-tandang-sora-bicentennial/">
-                                    <tt>http://www.gov.ph/the-tandang-sora-bicentennial/</tt>
-                                </a>.
-                            </li>
-                            <li id="ref-bi-speech">
-                                "Speech of President Aquino at the Tandang Sora birth bicentennial
-                                celebrations, January 6, 2012". <em>Official Gazette</em>.
-                                Republic of the Philippines. 6 January 2012. Web. 6 August 2016.
-                                <a href="http://www.gov.ph/2012/01/06/speech-of-president-aquino-at-the-tandang-sora-birth-bicentennial-celebrations-january-6-2012/">
-                                    <tt>http://www.gov.ph/2012/01/06/speech-of-president-aquino-at-the-tandang-sora-birth-bicentennial-celebrations-january-6-2012/</tt>
-                                </a>.
-                            </li>
-                            <li id=ref-himlayan>
-                                "Tandang Sora Memorial Shrine". <em>Landmark</em>.
-                                Himlayang Pilipino, Inc. 2012. Web. 6 August 2016.
-                            </li>
-                            <li id="ref-wikipedia">
-                                "Melchora Aquino". <em>Melchora Aquino</em>.
-                                Wikimedia Foundation, Inc. 28 June 2016. Web. 6 August 2016.
-                                <a href="https://en.wikipedia.org/wiki/Melchora_Aquino">
-                                    <tt>https://en.wikipedia.org/wiki/Melchora_Aquino</tt>
-                                </a>.
-                            </li>
-                        </ol>
                     </div>
-                </div>
-            </section>
+
+                    <div id="content" class="col-xs-8 center-block" style="float:none">
+                        <div id="timeline">
+                            <h3>
+                                Here's a simple timeline of Melchora Aquino's life (and posthumous
+                                recognitions):
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>1812</strong> - Born in Balintawak, Quezon City[<a href="#ref-wikipedia">5</a>].
+                                </li>
+                                <li>
+                                    <strong>1896</strong> - Philippine Revolution against Spaniards began.
+                                    Offered her store to aid revolutionaries through medical aid,
+                                    moral support and shelter. This led to her being known as
+                                    "Tandang Sora" and
+                                    "Mother of the Philippine Revolution" and other similar titles[<a href="#ref-wikipedia">5</a>].
+                                </li>
+                                <li>
+                                    <strong>1903</strong> - Returned to Balintawak by Americans from being
+                                    exiled by the Spaniard during the Revolution[<a href="ref-bi-article">2</a>].
+                                </li>
+                                <li>
+                                    <strong>1919</strong> - Died in the Balintawak at the age of 107[<a href="ref-bi-article">2</a>][<a href="#ref-wikipedia">5</a>].
+                                </li>
+                                <li>
+                                    <strong>1947</strong> - Given tribute through the film "Tandang Sora"
+                                    by director Lamberto Avelana and portrayed by actress
+                                    Rosa del Rosario[<a href="#ref-filipiknow">1</a>].
+                                </li>
+                                <li>
+                                    <strong>1951</strong> - Featured as the first Filipina on a Philippine
+                                    peso banknote[<a href="#ref-wikipedia">5</a>][<a href="#ref-filipiknow">1</a>].
+                                </li>
+                                <li>
+                                    <strong>2011</strong> - Quezon City declared 2012 "Tandang Sora Year"[<a href="ref-bi-article">2</a>][<a href="#ref-wikipedia">5</a>].
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <blockquote>
+                                <p>Sa paglalagak natin ng mga labi ni Tandang Sora sa kaniyang bagong
+                                    dambana, nawa'y magsilbing paalala sa bawat dumadalaw dito ang kakaibang
+                                    uri ng kabayanihan ni Melchora Aquino: na kung gusto mo talagang
+                                    pagsilbihan ang bayan, hindi hadlang ang edad, o ang kasarian, o
+                                    anupamang balakid sa iyong harapan.
+                                    Kaya naman tulungan natin ang ating kapwa, at nagkakaisa tayong kumilos
+                                    para sa kapakanan ng ating bansa. Sa ganitong paraan, ipinapakita nating
+                                    buhay pa rin ang pamana ni Melchora Aquino; at buhay pa rin ang kabayanihan
+                                    at pagbabayanihan sa puso ng bawat Pilipino.
+                                </p>
+                                <footer>
+                                    <cite>
+                                        Former Philippine President Benigno S. Aquino III, 2012[<a href="#ref-bi-speech">3</a>].
+                                    </cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <div>
+                            <h3>
+                                Please read more about her incredible contribution to the Philippine
+                                Independence on her <a href="http://www.gov.ph/the-tandang-sora-bicentennial/">
+                                official Philippine bicentennial commemoration article</a>.
+                            </h3>
+                        </div>
+
+                        <div id="sources">
+                            <h4>References:</h4>
+                            <ol>
+                                <li id="ref-filipiknow">
+                                    "5 Surprising Facts About Melchora Aquino ('Tandang Sora')".
+                                    <em>FilipiKnow</em>. FilipiKnow. Web. 6 August 2016.
+                                    <a href="http://www.filipiknow.net/surprising-facts-about-melchora-aquino/">
+                                        <tt>http://www.filipiknow.net/surprising-facts-about-melchora-aquino/</tt>
+                                    </a>.
+                                </li>
+                                <li id="ref-bi-article">
+                                    "The Tandang Sora bicentennial". <em>Official Gazette</em>.
+                                    Republic of the Philippines. 2012. Web. 6 August 2016.
+                                    <a href="http://www.gov.ph/the-tandang-sora-bicentennial/">
+                                        <tt>http://www.gov.ph/the-tandang-sora-bicentennial/</tt>
+                                    </a>.
+                                </li>
+                                <li id="ref-bi-speech">
+                                    "Speech of President Aquino at the Tandang Sora birth bicentennial
+                                    celebrations, January 6, 2012". <em>Official Gazette</em>.
+                                    Republic of the Philippines. 6 January 2012. Web. 6 August 2016.
+                                    <a href="http://www.gov.ph/2012/01/06/speech-of-president-aquino-at-the-tandang-sora-birth-bicentennial-celebrations-january-6-2012/">
+                                        <tt>http://www.gov.ph/2012/01/06/speech-of-president-aquino-at-the-tandang-sora-birth-bicentennial-celebrations-january-6-2012/</tt>
+                                    </a>.
+                                </li>
+                                <li id=ref-himlayan>
+                                    "Tandang Sora Memorial Shrine". <em>Landmark</em>.
+                                    Himlayang Pilipino, Inc. 2012. Web. 6 August 2016.
+                                    <a href="http://himlayangpilipino.com.ph/?landmark=the-tandang-sora-memorial-shrine">
+                                        <tt>http://himlayangpilipino.com.ph/?landmark=the-tandang-sora-memorial-shrine</tt>
+                                    </a>.
+                                </li>
+                                <li id="ref-wikipedia">
+                                    "Melchora Aquino". <em>Melchora Aquino</em>.
+                                    Wikimedia Foundation, Inc. 28 June 2016. Web. 6 August 2016.
+                                    <a href="https://en.wikipedia.org/wiki/Melchora_Aquino">
+                                        <tt>https://en.wikipedia.org/wiki/Melchora_Aquino</tt>
+                                    </a>.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
             <footer>
+                <hr/>
                 <p>Page created by <a href="#">Giltroy Meren</a>.</p>
             </footer>
         </div>
